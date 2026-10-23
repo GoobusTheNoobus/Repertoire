@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Fira Code";
+  src: url("/fonts/FiraCode-VariableFont_wght.ttf") format("truetype");
+}
+
+:root {
+  /* Variables */
+  --c-background: #1c1917;
+  --c-secondary: #29231f;
+  --c-foreground: #f0e8db;
+  --c-accent: #c5a46d;
+  --c-muted: #a69a8a;
+
+  --font: "Fira Code";
+}
+
+html,
+body {
+  margin: 0;
+  padding: 1rem;
+  min-height: 100vh;
+
+  font-family: "Fira Code";
+
+  background-color: var(--c-background);
+  color: var(--c-foreground);
+}
